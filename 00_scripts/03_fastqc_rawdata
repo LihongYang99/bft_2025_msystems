@@ -1,0 +1,41 @@
+#!/bin/bash
+#SBATCH --job-name=fastqc_raw
+#SBATCH --account=nikhita
+#SBATCH --partition=normal_q
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=12:00:00
+#SBATCH --output=/projects/nikhita/lihong/acm_biofloc/logs/fastqc_%j.out
+#SBATCH --error=/projects/nikhita/lihong/acm_biofloc/logs/fastqc_%j.err
+
+set -euo pipefail
+
+# Define paths
+PROJECT=/projects/nikhita/lihong/acm_biofloc
+RAW=$PROJECT/00_raw_data
+OUT=$PROJECT/01_fastqc_rawdata
+
+# Create output directory
+mkdir -p "$OUT"
+
+# Prevent error from not defined
+CPUS=${SLURM_CPUS_PER_TASK:-8}
+
+# Load module
+module load FastQC
+
+# Run FastQC on all raw FASTQ files
+echo "Running FastQC on raw data ..."
+echo "Input directory: $RAW"
+echo "Output directory: $OUT"
+echo "CPUs: $CPUS"
+echo ""
+
+fastqc -t "$CPUS" -o "$OUT" "$RAW"/*.fastq.gz
+
+echo ""
+echo "FastQC completed!"
+echo "Results in: $OUT"
+
