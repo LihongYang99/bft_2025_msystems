@@ -1,5 +1,5 @@
 # Biofloc Metagenomics Analysis 
-Name: Lihong Yang - Virginia Tech
+Name: Lihong Yang
 
 **Link to reference paper**: [Rajeev et al. (2024) - Metagenome-assembled genomes from biofloc-based aquaculture systems](https://doi.org/10.1128/msystems.00850-23)
 
@@ -13,9 +13,10 @@ Quality assessment and visualization of 398 metagenome-assembled genomes (MAGs) 
 biofloc-mag-quality/
 ├── README.md                               # This file
 ├── test_dataset/
-│   └── 
+│   └── SRRxxxx(raw data)  
 ├── scripts/
-│   └──         
+│   └── 01_download_sra.sh
+     
 ├── figures/
 │   ├── fig1_mag_quality_scatter.png        # Completeness vs contamination scatter plot
 │   ├── fig2_quality_tier_barplot.png       # Quality distribution bar plot
