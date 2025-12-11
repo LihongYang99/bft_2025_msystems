@@ -16,7 +16,7 @@ biofloc-mag-quality/
 │   └── SRRxxxx(raw data)  
 ├── scripts/
 │   └── 01_download_sra.sh
-     
+    └── 02_convert_to_fastq.sh
 ├── figures/
 │   ├── fig1_mag_quality_scatter.png        # Completeness vs contamination scatter plot
 │   ├── fig2_quality_tier_barplot.png       # Quality distribution bar plot
