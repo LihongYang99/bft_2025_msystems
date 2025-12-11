@@ -1,3 +1,3 @@
 # Biofloc Metagenomics Analysis 
-- **Lihong** - Virginia Tech
+- Name: **Lihong Yang** - Virginia Tech
 ## Project Overview 
