@@ -1,5 +1,5 @@
 # Biofloc Metagenomics Analysis 
-- Name: Lihong Yang - Virginia Tech
+Name: Lihong Yang - Virginia Tech
 
 **Link to reference paper**: [Rajeev et al. (2024) - Metagenome-assembled genomes from biofloc-based aquaculture systems](https://doi.org/10.1128/msystems.00850-23)
 ## Project Overview 
