@@ -2,10 +2,28 @@
 Name: Lihong Yang - Virginia Tech
 
 **Link to reference paper**: [Rajeev et al. (2024) - Metagenome-assembled genomes from biofloc-based aquaculture systems](https://doi.org/10.1128/msystems.00850-23)
+
 ## Project Overview 
 
-
 Quality assessment and visualization of 398 metagenome-assembled genomes (MAGs) from biofloc aquaculture systems.
+
+## Repository Structure
+
+```
+biofloc-mag-quality/
+├── README.md                               # This file
+├── test_dataset/
+│   └── 
+├── scripts/
+│   └──         
+├── figures/
+│   ├── fig1_mag_quality_scatter.png        # Completeness vs contamination scatter plot
+│   ├── fig2_quality_tier_barplot.png       # Quality distribution bar plot
+│   └── fig3_completeness_histogram.png     # Completeness distribution histogram
+└── results/
+    ├── quality_statistics.csv              # Summary statistics
+    └── all_mag_quality.csv                 # Full quality table with tier classifications
+```
 
 ##  Quick results Summary
 
