@@ -1,7 +1,8 @@
 # Biofloc Metagenomics Analysis 
-Name: Lihong Yang
+Name: Lihong Yang, for class SPES 5524 I2GDS
 
-**Link to reference paper**: [Rajeev et al. (2024) - Metagenome-assembled genomes from biofloc-based aquaculture systems](https://doi.org/10.1128/msystems.00850-23)
+**Link to reference paper**: [Rajeev et al. (2024) - Genome-centric metagenomics provides insights into the
+core microbial community and functional profiles of biofloc aquaculture](https://journals.asm.org/doi/10.1128/msystems.00782-24)
 
 ## Project Overview 
 
@@ -13,10 +14,23 @@ Quality assessment and visualization of 398 metagenome-assembled genomes (MAGs) 
 biofloc-mag-quality/
 ├── README.md                               # This file
 ├── test_dataset/
-│   └── SRRxxxx(raw data)  
-├── scripts/
+│   └── SRRxxxx(one set of raw data if anyone want to reproduce)  
+├── linux_scripts/
 │   └── 01_download_sra.sh
-    └── 02_convert_to_fastq.sh
+│   └── 02_convert_to_fastq.sh
+│   └── 03_fastqc_rawdata
+│   └── 04_bbduk_trim.sh
+│   └── 05_metaspades_individual.sh
+│   └── 06_metaspades_coassembly.sh
+│   └──	07_metawrap_binning.sh
+│   └──	07_uncompress_for_binning.sh
+│   └── 08_metawrap_bin_refinement.sh
+│   └──	09_collect_all_bins.sh
+│   └── 10_checkm_binsABC.sh
+│   └── 11_drep_dereplicate.sh
+│   └── 13_checkm2_quality.sh
+├── R_scripts/
+│   └── 01_MAG_quality_visualization  
 ├── figures/
 │   ├── fig1_mag_quality_scatter.png        # Completeness vs contamination scatter plot
 │   ├── fig2_quality_tier_barplot.png       # Quality distribution bar plot
