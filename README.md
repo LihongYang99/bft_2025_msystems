@@ -61,3 +61,12 @@ biofloc-mag-quality/
 *The R visualization script contains file paths that need to be changed to match your local directory structure. Make sure to update the working directory path in the script before running. All scripts contain comments indicating where to update file paths.*
 
 ##  Reproduction of the pipeline for this paper 
+### step 1: clone all the things from Git gub to your workspace 
+```
+cd yourworkingdirectory
+git clone https://github.com/LihongYang99/bft_2025_msystems
+```
+### step 2: Download SRA file from NCBI database 
+
+<details>
+<summary><strong>🔽 Training Script</strong></summary>
