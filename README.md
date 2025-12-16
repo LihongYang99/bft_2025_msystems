@@ -8,6 +8,8 @@ core microbial community and functional profiles of biofloc aquaculture](https:/
 
 Quality assessment and visualization of 398 metagenome-assembled genomes (MAGs) from biofloc aquaculture systems.
 The pipeline of this paper is given as the below figure. 
+
+
 ![Pipeline of this paper](flowdiagram.png)
 
 
