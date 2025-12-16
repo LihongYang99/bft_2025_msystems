@@ -8,8 +8,6 @@
 #SBATCH --output=/projects/nikhita/lihong/acm_biofloc/logs/bbduk_%j.out
 #SBATCH --error=/projects/nikhita/lihong/acm_biofloc/logs/bbduk_%j.err
 
-set -euo pipefail
-
 # Define paths
 PROJECT=/projects/nikhita/lihong/acm_biofloc
 RAW=$PROJECT/00_raw_data
