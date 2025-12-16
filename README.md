@@ -11,9 +11,7 @@ The pipeline of this paper is given as the below figure.
 
 
 ![Pipeline of this paper](flowdiagram.png)
-
-
-
+In this report, I include the steps until the relative abundance profiling and a table. The final objective for this project is to visualize the MAG quality with R plot. 
 ## Repository Structure
 
 ```
@@ -67,6 +65,10 @@ cd yourworkingdirectory
 git clone https://github.com/LihongYang99/bft_2025_msystems
 ```
 ### step 2: Download SRA file from NCBI database 
-
-<details>
-<summary><strong>🔽 Training Script</strong></summary>
+first change to the scripts directory 
+```
+sbatch 01_download_sra.sh
+```
+This process takes about 26 hours. Then we got the ```xxxxxxx.sra``` files in the raw data folder 
+### step 3: Convert SRA to fastq files
+This process is for later analysis with fastq files. This will results in adding ```.fastq``` files to the raw data foler  
