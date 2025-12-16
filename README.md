@@ -61,6 +61,7 @@ biofloc-mag-quality/
 ### Changing file paths in scripts
 *The R visualization script contains file paths that need to be changed to match your local directory structure. Make sure to update the working directory path in the script before running. All scripts contain comments indicating where to update file paths.*
 
+### Change directory to the 
 
 ## Software Requirements
 
@@ -418,7 +419,7 @@ Rscript 00_scripts/mag_quality_visualization.R
 
 ---
 
-## Software Versions
+## Appendix:  Software Versions
 
 | Software | Version | Purpose |
 |----------|---------|---------|
