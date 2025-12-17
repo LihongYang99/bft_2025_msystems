@@ -846,25 +846,6 @@ Rscript linux_scripts/15_MAG_quality_visualization.R
 
 ---
 
-## Citation
-
-```
-Yang, L. & Gogate, N. (2024). Biofloc Metagenomics: MAG Quality Assessment Pipeline.
-GitHub: https://github.com/LihongYang99/bft_2025_msystems
-```
-
----
-
-## Contact
-
-**Lihong Yang**  
-Graduate Student, Virginia Tech  
-Department of Biological Systems Engineering  
-Email: lhyang@vt.edu  
-GitHub: [@LihongYang99](https://github.com/LihongYang99)
-
-**Advisor**: Dr. Nikhita Gogate
-
 
 
 
