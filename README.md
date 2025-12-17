@@ -17,9 +17,7 @@ In this report, I include the steps until the relative abundance profiling and a
 ```
 biofloc-mag-quality/
 ├── README.md                               # This file
-├── test_dataset/
-│   └── SRRxxxx(one set of raw data if anyone want to reproduce)  
-├── linux_scripts/
+├── 00_scripts/
 │   └── 01_download_sra.sh
 │   └── 02_convert_to_fastq.sh
 │   └── 03_fastqc_rawdata
@@ -34,8 +32,8 @@ biofloc-mag-quality/
 │   └── 11_drep_dereplicate.sh
 │   └── 13_checkm2_quality.sh
 │   └── 15_MAG_quality_visualization.R 
-├── 
-└── 
+├── test_dataset/
+    └── SRRxxxx(one set of raw data if anyone want to reproduce the process)  
 ```
 
 
