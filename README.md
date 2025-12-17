@@ -34,13 +34,8 @@ biofloc-mag-quality/
 │   └── 11_drep_dereplicate.sh
 │   └── 13_checkm2_quality.sh
 │   └── 15_MAG_quality_visualization.R 
-├── figures/
-│   ├── fig1_mag_quality_scatter.png        # Completeness vs contamination scatter plot
-│   ├── fig2_quality_tier_barplot.png       # Quality distribution bar plot
-│   └── fig3_completeness_histogram.png     # Completeness distribution histogram
-└── results/
-    ├── quality_statistics.csv              # Summary statistics
-    └── all_mag_quality.csv                 # Full quality table with tier classifications
+├── 
+└── 
 ```
 
 
