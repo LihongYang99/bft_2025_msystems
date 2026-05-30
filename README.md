@@ -1,5 +1,5 @@
 # Biofloc Metagenomics Analysis 
-Name: Lihong Yang, for class SPES 5524 I2GDS
+Name: Lihong Yang
 
 **Link to reference paper**: [Rajeev et al. (2024) - Genome-centric metagenomics provides insights into the core microbial community and functional profiles of biofloc aquaculture](https://journals.asm.org/doi/10.1128/msystems.00782-24)
 
